@@ -1,7 +1,8 @@
 body{
-    background: pink;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    background-image: url("img/japan.jpg"); 
+    font-family :  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed,scroll;
+    background-repeat: no-repeat,repeat-y;
 }
 img{
     width: 30%;
