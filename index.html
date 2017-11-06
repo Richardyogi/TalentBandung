@@ -5,51 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Talent Bandung</title>
+    <title>Taman Hutan Raya Bandung-Batch 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <!-- <style>
+        .parallax {
+            background-image: url("img/TamanHutanRaya.jpg");
+            min-height: 600px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style> -->
 </head>
 
 <body>
-    <a href="" class="judul">
-        <h1>Talent Bandung Batch 3</h1>
-    </a>
-    <div class="menuUtama">
-        <ul>
-            <li><a href="index2.html"> Kawah Putih</a></li>
-            <li> |</li>
-            <li><a href=""> Tangkuban Parahu</a></li>
-            <li>|</li>
-            <li><a href="">Maribaya</a></li>
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#history">Sejarah</a></li>
+            <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tentang Tahura <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Fasilitas</a></li>
+                    <li><a href="#">Tiket</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Navigasi</a></li>
         </ul>
     </div>
 
-    <img id="gambarAwal" src="img/Advice-Doge.jpg">
+    <div class="parallax1" id="home">
+        <div class="isi">
+            <center><img style="width:15%;display:block;margin-bottom:3%" src="img/LOGO TAHURA2.png"></center>
+            <br></br>
+            <center><span class="border" style="text-align:center">Selamat Datang di Official Website Kami</span></center>
+            <hr style="width:27%">
+        </div>
+    </div>
 
 
-    <div id="paragraf">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nam repudiandae temporibus unde voluptates! Amet ad
-            illum ducimus voluptate voluptates cumque repellendus voluptatibus atque, laboriosam quaerat, in, quibusdam veritatis
-            eligendi.
-        </p>
-        <p>Dolore blanditiis tempore fugit cum vitae iure ducimus labore sequi odit porro inventore quos dolor, iusto totam?
-            Similique provident et animi, iste debitis odit omnis sapiente eum soluta magnam minus.</p>
-        <p>Quis cumque saepe inventore reprehenderit nam, molestias aut esse, nulla, a voluptates neque temporibus totam ipsa
-            illum repellat voluptatum in. Est aperiam nam at, deserunt ipsum alias quis animi sint!</p>
-        <p>Culpa repellat deserunt iure. Amet quibusdam unde fuga quae at repellendus sit commodi laboriosam modi eum, aut libero
-            perferendis, sint eligendi beatae ducimus consequatur? Corrupti nihil officia et provident exercitationem.</p>
-        <p> lalala</p>
-        <p>
-            There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the
-            other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again. Suddenly
-            she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden
-            key, and Alice's first thought was that it might belong to one of the doors of the hall; but, alas! either the
-            locks were too large, or the key was too small, but at any rate it would not open any of them. However, on the
-            second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about
-            fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!
-        </p>
+
+    <div class="parallax2" id="history">
+        <div class="isi1">
+            <br></br>
+            <h1 data-aos="fade-right" data-aos-duration="2000">Sejarah</h1>
+            <p>Taman terbesar yang pernah dibangun oleh pemerintah Hindia Belanda berbentuk hutan lindung dengan nama Hutan
+                Lindung Gunung Pulosari. Perintisan taman ini mungkin sudah dilakukan sejak tahun 1912 bersamaan dengan pembangunan
+                terowongan penyadapan aliran sungai Ci Kapundung (kemudian hari disebut sebagai Gua Belanda), namun peresmiannya
+                sebagai hutan lindung baru dilakukan pada tahun 1922.</p>
+            <br></br>
+
+            <button type="button" class="btn btn-primary btn-md" style="float:right;margin-right:8%;background-color:transparent">LEARN MORE >> </button>
+        </div>
+    </div>
+
+
+    <div class="parallax3">
+        <div class="isi2">
+            <br></br>
+            <h1 data-aos="fade-left" data-aos-duration="2000">Tentang Tahura</h1>
+            <br></br>
+            <p>Klik disini untuk mengetahui fasilitas dan tiket Taman Hutan Raya Juanda</p>
+            <br></br>
+            <button type="button" class="btn btn-primary btn-md" style="float:left;margin-left:8%;background-color:transparent">LEARN MORE >> </button>
+        </div>
     </div>
 
 
 </body>
-
+<script>
+    AOS.init();
+</script>
 </html>

@@ -1,59 +1,69 @@
-body{
-    background-image: url("../img/bandung-night-at-braga.jpg");
-    font-family :  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-attachment: fixed,scroll;
-    background-repeat: no-repeat,repeat-y;
+.parallax1{
+    background-image:url("../img/TamanHutanRaya.jpg");
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    margin-bottom: 0;
+    
 }
 
-#gambarAwal{
-    width :20%;
-    height: 0%;
-    margin-left: 14%;
-    margin-top: 8%;
-}
-
-.judul:hover{
-    color: blue;
-}
-.judul{
-    color:black;
-    text-decoration: none;
-    text-align: center;
-}
-
-
-.menuUtama ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menuUtama li{
-    float: left
-}
-
-.menuUtama li a{
+.isi span.border{
+    background-color: whitesmoke;
     color : black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.menuUtama li a:hover {
-    color : #4848C5;
-}
-#paragraf{
-    color: white;
-}
-#kawahputih{
-    width :22%;
-    height: 15%;
-    margin-left: 15%;
-    margin-top: 8%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    padding: 10px;
 }
 
+.isi1 p{
+    text-align:right;
+    letter-spacing:5px;
+    color:whitesmoke;
+    margin-right:8%
+}
 
-.paragraf2{
-    color: #E2D2D0;
+.isi1 h1{
+    text-align:right;
+    letter-spacing:8px;
+    color:whitesmoke;
+    margin-right:8%;
+}
+
+.parallax2{
+    margin-top: -19px;
+    background-image:url("../img/GoaJepangBandung.jpg");
+    min-height:450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax3{
+    margin-top: 2px;
+    background-image:url("../img/tendaApung.jpg");
+    min-height:380px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.isi2 h1{
+    text-align:left;
+    letter-spacing:8px;
+    color:whitesmoke;
+    margin-left:8%;
+}
+
+.isi2 p{
+    text-align:left;
+    letter-spacing:3px;
+    color:whitesmoke;
+    margin-left:8%
 }
