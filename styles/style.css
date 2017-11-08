@@ -46,7 +46,18 @@
 .parallax3{
     margin-top: 2px;
     background-image:url("../img/tendaApung.jpg");
-    min-height:380px;
+    min-height:350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax4{
+    margin-top: 2px;
+    background-image:url("../img/rawpixel-com-211022.jpg");
+    min-height:350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,4 +77,18 @@
     letter-spacing:3px;
     color:whitesmoke;
     margin-left:8%
+}
+
+.isi3 h1{
+    text-align:center;
+    letter-spacing:5px;
+    color:whitesmoke;
+    margin-top:4%;
+}
+
+.isi3 p{
+    text-align:center;
+    letter-spacing:3px;
+    color:whitesmoke;
+    
 }
