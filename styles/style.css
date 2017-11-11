@@ -92,3 +92,35 @@
     color:whitesmoke;
     
 }
+
+.parallax5{
+    margin-top: 2px;
+    background-color: green;
+    min-height:100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.isi4 h1{
+    text-align:center;
+    letter-spacing:5px;
+    color:whitesmoke;
+    margin-top:4%;
+}
+
+.isi4 i{
+    text-align:center;
+    letter-spacing:3px;
+    color:whitesmoke;
+    
+}
+
+.isi4 p{
+    text-align:center;
+    letter-spacing:3px;
+    color:whitesmoke;
+    
+}
