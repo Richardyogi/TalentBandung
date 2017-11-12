@@ -124,3 +124,12 @@
     color:whitesmoke;
     
 }
+
+.judul span.border{
+    background-color: whitesmoke;
+    color : black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    padding: 10px;
+}
