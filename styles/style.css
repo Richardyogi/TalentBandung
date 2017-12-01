@@ -1,148 +1,80 @@
-.parallax1{
-    background-image:url("../img/TamanHutanRaya.jpg");
-    min-height:600px;
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+    font-family:"Un Batang";
+    src:url("../fonts/UnBatang.eot?") format("eot"),
+    url("../fonts/UnBatang.woff") format("woff"),
+    url("../fonts/UnBatang.ttf") format("truetype"),
+    url("./fonts/UnBatang.svg#UnBatang") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+.location{
+    margin-left: 4%;
+    letter-spacing: 4px;
+    
+}
+
+.location span{
+    color: black;
+    font-size: 14px;
+    font-family: "montserratregular";
+
+}
+
+.jumbotron{
+    background-color: #f7a639;
+    padding: 0.5em 0.6em;
+}
+
+.jumbotron h1{
+    font-family: "montserratregular";
+}
+
+.navbar{
+    background-color: #f7a639;
+    border-color: transparent;
+}
+
+.navbar-nav{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-family: "montserratregular";
+    
+}
+
+.navbar-nav li{
+        float: none;
+        display: inline-block;
+}
+
+.parallax{
+    background-image: url("../img/background-market.jpg");
+    min-height: 410px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 0;
-    
+    margin-top: -32px;
 }
 
-.isi span.border{
+.card {
+    margin-top: 20px;
+    margin-left : 20px;
+    padding: 10px;
+    color: black;
     background-color: whitesmoke;
-    color : black;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 5px;
-    padding: 10px;
-}
+    font-family: "Un Batang";
+  }
 
-.isi1 p{
-    text-align:right;
-    letter-spacing:5px;
-    color:whitesmoke;
-    margin-right:8%
-}
-
-.isi1 h1{
-    text-align:right;
-    letter-spacing:8px;
-    color:whitesmoke;
-    margin-right:8%;
-}
-
-.parallax2{
-    margin-top: -19px;
-    background-image:url("../img/GoaJepangBandung.jpg");
-    min-height:450px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-.parallax3{
-    margin-top: 2px;
-    background-image:url("../img/tendaApung.jpg");
-    min-height:350px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-.parallax4{
-    margin-top: 2px;
-    background-image:url("../img/rawpixel-com-211022.jpg");
-    min-height:350px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-.isi2 h1{
-    text-align:left;
-    letter-spacing:8px;
-    color:whitesmoke;
-    margin-left:8%;
-}
-
-.isi2 p{
-    text-align:left;
-    letter-spacing:3px;
-    color:whitesmoke;
-    margin-left:8%
-}
-
-.isi3 h1{
-    text-align:center;
-    letter-spacing:5px;
-    color:whitesmoke;
-    margin-top:4%;
-}
-
-.isi3 p{
-    text-align:center;
-    letter-spacing:3px;
-    color:whitesmoke;
-    
-}
-
-.parallax5{
-    margin-top: 2px;
-    background-color: green;
-    min-height:100px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 0;
-}
-
-.isi4 h1{
-    text-align:center;
-    letter-spacing:5px;
-    color:whitesmoke;
-    margin-top:4%;
-}
-
-.isi4 i{
-    text-align:center;
-    letter-spacing:3px;
-    color:whitesmoke;
-    padding: 20px;
-}
-
-.isi4 p{
-    text-align:center;
-    letter-spacing:3px;
-    color:whitesmoke;
-    
-}
-
-.isiHistory span.border{
-    background-color: transparent;
-    color : whitesmoke;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 5px;
-    padding: 10px;
-    margin-top:9%;
-}
-
-.history span{
-    margin-top:9%;
-}
-
-.history{
-    background-image:url("../img/bagas-vg-426733.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1000px;
-}
+  
