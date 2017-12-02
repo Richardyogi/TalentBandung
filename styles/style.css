@@ -71,6 +71,7 @@
 .card {
     margin-top: 20px;
     margin-left : 20px;
+    margin-right: 20px;
     padding: 10px;
     color: black;
     background-color: whitesmoke;
@@ -78,3 +79,16 @@
   }
 
   
+  .parallax2{
+    background-image: url("../img/background-market2.jpg");
+    min-height: 410px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active{
+    background-color: transparent;
+    border-color: black;
+}
