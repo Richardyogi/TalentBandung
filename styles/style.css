@@ -79,13 +79,20 @@
   }
 
   
-  .parallax2{
+.parallax2{
     background-image: url("../img/background-market2.jpg");
     min-height: 410px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax3{
+    background-color: #f7a639;
+}
+.parallax3 h1{
+    font-family: "Un Batang";
 }
 
 .active{
