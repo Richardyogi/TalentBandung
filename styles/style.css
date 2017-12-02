@@ -92,3 +92,37 @@
     background-color: transparent;
     border-color: black;
 }
+
+.section2{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-family: "Un Batang";
+}
+
+.section2 h1{
+    font-size: 50px;
+    margin-left: 10px
+}
+.section2 p{
+    margin-left: 25px;
+    margin-top:10px;
+    font-size:15px;
+}
+
+.aboutcontent{
+    background-image: url("../img/LB-05-copy.jpg");
+    min-height: 410px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -32px;
+    color: whitesmoke;
+}
+
+.aboutcontent h1{
+    font-size: 50px;
+    font-family: "Un Batang";
+}
+
+

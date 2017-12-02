@@ -14,18 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
 
-    <!-- <style>
-        .parallax {
-            background-image: url("img/TamanHutanRaya.jpg");
-            min-height: 600px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style> -->
 </head>
 
 <body>
@@ -35,7 +24,7 @@
         </div>
         <br>
         <center>
-            <h1>Cibadak Street</h1>
+            <h1 data-aos="zoom-out" data-aos-duration="1500">Cibadak Street</h1>
         </center>
 
 
@@ -43,8 +32,8 @@
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
                     <li class="active"> <a href="">Home</a></li>
-                    <li> <a href="">About Cibadak</a></li>
-                    <li> <a href="">Food </a></li>
+                    <li> <a href="#food">Food</a></li>
+                    <li> <a href="#aboutcibadak">About Cibadak </a></li>
                     <li> <a href="">Gallery</a></li>
                 </ul>
                 </center>
@@ -53,7 +42,7 @@
 
     </div>
 
-    <div class="parallax">
+    <div class="parallax" id="food">
         <div class="card" style="width: 20rem;height:42rem">
             <div class="card-block">
                 <h2 class="card-title">WELCOME TO THE BEST PLACE STREET FOOD IN BANDUNG</h2>
@@ -65,30 +54,44 @@
                 <br>
                 <center><a href="#" class="btn btn-primary ">Learn More</a></center>
             </div>
-
         </div>
     </div>
 
-    <div class="parallax2">
+    <div class="parallax2" id="aboutcibadak">
+        <div class="pull-left section2" data-aos="fade-down" data-aos-duration="2000">
+            <b><center><h1>Did You Know?</h1></center></b>
+            <br>
+            <br>
+            <p>Cibadak Area Bandung, has long been famous as the largest wholesale area in the city of Bandung. Can be said
+                all kinds of needs can be obtained in this place.</p>
+            <p> Starting from the needs of households to the needs associated with business activities. Starting from plates,
+                cups, spoons and forks, stationery, to sewing</p>
+            <p> and mute needles as the smallest item of commodities sold in this location.</p>
+        </div>
         <div class="pull-right">
-            <div class="card" style="width: 20rem;height:39rem;margin-bottom:20px">
+            <div class="card" style="width: 20rem;height:41rem;margin-top:-1px">
                 <div class="card-block">
-                    <h2 class="card-title" style="margin-left:10px">What is Cibadak Street?</h2>
+                    <h2 class="card-title" style="margin-left:10px;font-size:40px">What is Cibadak Street?</h2>
                     <br>
                     <br>
                     <center>
                         <p class="card-text">Find out more detail about this street right now!</p>
                     </center>
                     <br>
-                    <center><a href="#" class="btn btn-primary ">Learn More</a></center>
+                    <center><a href="pages/aboutcibadak.html" class="btn btn-primary ">Learn More</a></center>
                 </div>
 
             </div>
         </div>
     </div>
 
+   
+    
+        <div id="map"></div>
+  
 
-    <div class="container" style="background-color:black;width:100%;height:40%;">
+
+    <div class="container" style="background-color:black;width:100%;height:2%;">
         <div class="row-fluid">
             <div class="span12">
 
@@ -111,8 +114,25 @@
     </div>
 
     <script>
+        function initMap() {
+            var uluru = { lat: -6.922289, lng: 107.596378 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDJ5m7bnJOmv6o1oHx86UwzIJA3aoB8EjM &callback=initMap"></script>
+
+    <script>
         AOS.init();
     </script>
+
 
 </body>
 
